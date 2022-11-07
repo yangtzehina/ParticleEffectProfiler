@@ -1,0 +1,16 @@
+{
+    "name": "ParticleEffectProfiler.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2589e63570b78bf4ebe23f7ded424e7d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
