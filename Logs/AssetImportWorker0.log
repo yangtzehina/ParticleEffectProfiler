@@ -1,0 +1,314 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.19f1 (602ecdbb2fb0) revision 6303437'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'zh' Physical Memory: 16280 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.2.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Work/ParticleEffectProfiler
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56996
+Successfully changed project path to: D:/Work/ParticleEffectProfiler
+D:/Work/ParticleEffectProfiler
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 47.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.19f1 (602ecdbb2fb0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.2.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Work/ParticleEffectProfiler/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 5GB (ID=0x1c04)
+    Vendor:   NVIDIA
+    VRAM:     5031 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.2.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.2.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.2.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.2.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2021.2.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006864 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 41.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.703 seconds
+Domain Reload Profiling:
+	ReloadAssembly (704ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (495ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (120ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (285ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (68ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (122ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002092 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.177 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1178ms)
+		BeginReloadAssembly (224ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (120ms)
+		EndReloadAssembly (834ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (438ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (147ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2180 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (56.7 KB). Loaded Objects now: 2621.
+Memory consumption went from 86.1 MB to 86.0 MB.
+Total: 7.488300 ms (FindLiveObjects: 0.292000 ms CreateObjectMapping: 0.104000 ms MarkObjects: 6.999600 ms  DeleteObjects: 0.091100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16770.793252 seconds.
+  path: Assets/ParticleEffectProfiler/Examples/EffectEvla.unity
+  artifactKey: Guid(78e1fad784ae4f5448b7878a9b252bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleEffectProfiler/Examples/EffectEvla.unity using Guid(78e1fad784ae4f5448b7878a9b252bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f86d22ce1dc3bd051a3e4473aa2a24') in 0.004733 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001589 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.079 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1080ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (838ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (458ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (158ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2171 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (25.6 KB). Loaded Objects now: 2624.
+Memory consumption went from 85.6 MB to 85.6 MB.
+Total: 7.283700 ms (FindLiveObjects: 0.305400 ms CreateObjectMapping: 0.186800 ms MarkObjects: 6.757000 ms  DeleteObjects: 0.033100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 122.663865 seconds.
+  path: Assets/ParticleEffectProfiler/Tools/Scripts
+  artifactKey: Guid(fdb2442b8d292174ea3052b2656c2b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleEffectProfiler/Tools/Scripts using Guid(fdb2442b8d292174ea3052b2656c2b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd435de3790452062285327fc79e4041e') in 0.005999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.094089 seconds.
+  path: Assets/ParticleEffectProfiler/Tools/Scripts/Editor
+  artifactKey: Guid(02cf89e40a7c8274982c2675bb562c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleEffectProfiler/Tools/Scripts/Editor using Guid(02cf89e40a7c8274982c2675bb562c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ff311b231986cb3846db8113d852fd') in 0.001251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.933281 seconds.
+  path: Assets/ParticleEffectProfiler/Tools/Shaders/OverDraw.shader
+  artifactKey: Guid(652caa153f81adf4093708ef5964e91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleEffectProfiler/Tools/Shaders/OverDraw.shader using Guid(652caa153f81adf4093708ef5964e91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db9cb4e0e29d83027a0bdbc77cbf852') in 0.019516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.025081 seconds.
+  path: Assets/ParticleEffectProfiler/Tools/Scripts/Editor/MyParticleEffectUI.cs
+  artifactKey: Guid(d18df6b747ab0f042bda117b91d30c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleEffectProfiler/Tools/Scripts/Editor/MyParticleEffectUI.cs using Guid(d18df6b747ab0f042bda117b91d30c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04fb44fd92013a04f81db182afbfdb16') in 0.012118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.852766 seconds.
+  path: Assets/ParticleEffectProfiler/Tools/Scripts/EffectEvla.cs
+  artifactKey: Guid(106fa94d1de0a0647977d97865896831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleEffectProfiler/Tools/Scripts/EffectEvla.cs using Guid(106fa94d1de0a0647977d97865896831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa23e399fd38c45366d20d94ba4a6454') in 0.001169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.172193 seconds.
+  path: Assets/ParticleEffectProfiler/Examples/Effect/Fbx/SuLing_Fbx_pian_002.FBX
+  artifactKey: Guid(bc11e003a60dda348bf4abb875c9a718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleEffectProfiler/Examples/Effect/Fbx/SuLing_Fbx_pian_002.FBX using Guid(bc11e003a60dda348bf4abb875c9a718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b436a8c496da6b103b4ed6ac0ed126d') in 0.468418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.359921 seconds.
+  path: Assets/ParticleEffectProfiler/Examples/Effect/Fbx/SuLing_FBX_zhuiti_001.FBX
+  artifactKey: Guid(3ceda0ac9127e7947bb977285ed79806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleEffectProfiler/Examples/Effect/Fbx/SuLing_FBX_zhuiti_001.FBX using Guid(3ceda0ac9127e7947bb977285ed79806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b21b98eda5c9d4a67f4e08ef9363dda') in 0.012837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.912365 seconds.
+  path: Assets/ParticleEffectProfiler/Examples/Effect/Fbx/daoguang01.FBX
+  artifactKey: Guid(b7b28c2990df1a44ba459bdcf8c3bc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleEffectProfiler/Examples/Effect/Fbx/daoguang01.FBX using Guid(b7b28c2990df1a44ba459bdcf8c3bc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094c82d4cce7db2cc8000143111bf055') in 0.016852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.094240 seconds.
+  path: Assets/ParticleEffectProfiler/Tools/Scripts/EffectEvlaData.cs
+  artifactKey: Guid(787d176aaa8ca9441a83a2203d6e8696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleEffectProfiler/Tools/Scripts/EffectEvlaData.cs using Guid(787d176aaa8ca9441a83a2203d6e8696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687088b254ff94ee4a4bddf6b6990d8e') in 0.001278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.673376 seconds.
+  path: Assets/ParticleEffectProfiler/Tools/Scripts/ParticleEffectCurve.cs
+  artifactKey: Guid(d3139117f93a79d44a3d81125c7f868d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleEffectProfiler/Tools/Scripts/ParticleEffectCurve.cs using Guid(d3139117f93a79d44a3d81125c7f868d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61bfa28aa454f76ac12d5ae6c63ff18') in 0.001136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.875633 seconds.
+  path: Assets/ParticleEffectProfiler/Tools/Scripts/SingleEffectEvla.cs
+  artifactKey: Guid(c07c00460a1eaf94c9125a183d1a5949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleEffectProfiler/Tools/Scripts/SingleEffectEvla.cs using Guid(c07c00460a1eaf94c9125a183d1a5949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acaabbeecdc67484a7400b80a76d5c9') in 0.001140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1031.366735 seconds.
+  path: Assets/ParticleEffectProfiler/Tools/Scripts/Editor/TestParticleEffect.cs
+  artifactKey: Guid(c733d0b741358774e81c9f9e4adb8d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleEffectProfiler/Tools/Scripts/Editor/TestParticleEffect.cs using Guid(c733d0b741358774e81c9f9e4adb8d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611f077c54942528222cc2defcda3418') in 0.001323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.231792 seconds.
+  path: Assets/ParticleEffectProfiler/Tools/Scripts/GetParticleEffectData.cs
+  artifactKey: Guid(c9102eb1243ad4f48940a77d191faa60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleEffectProfiler/Tools/Scripts/GetParticleEffectData.cs using Guid(c9102eb1243ad4f48940a77d191faa60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878a9594692835edb0ead0a03242d081') in 0.001321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.468347 seconds.
+  path: Assets/ParticleEffectProfiler/Examples/Effect
+  artifactKey: Guid(78315eb30d968394798ce88ffe9dedad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleEffectProfiler/Examples/Effect using Guid(78315eb30d968394798ce88ffe9dedad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60aa723720f43e7f75b6a600ab03e52') in 0.001235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.079720 seconds.
+  path: Assets/ParticleEffectProfiler/Examples/Effect/skillfx1_5.prefab
+  artifactKey: Guid(9dbe74e7e8950eb428e11cf6b2600de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleEffectProfiler/Examples/Effect/skillfx1_5.prefab using Guid(9dbe74e7e8950eb428e11cf6b2600de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95e870f1c871591c2b67b1958974116') in 0.059974 seconds 
